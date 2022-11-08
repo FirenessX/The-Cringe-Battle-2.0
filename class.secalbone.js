@@ -1,7 +1,6 @@
-class SecAlBone {
+class SecAlBone extends LivingCreature{
     constructor(x, y) {
-        this.x = x;
-        this.y = y;
+        super(x, y);
     }
     
     NaN(){

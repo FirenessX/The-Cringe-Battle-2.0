@@ -1,7 +1,6 @@
-class AlBoneBase {
+class AlBoneBase extends LivingCreature{
     constructor(x, y) {
-        this.x = x;
-        this.y = y;
+        super(x, y);
     }
     
     NaN(){
